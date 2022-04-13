@@ -214,7 +214,7 @@
 			<script> sm.getApi({version: 'v1'}).then(function(glia) {
 
   				function addSubmitListener(engagement) {
-   					var submit = document.querySelector('#menu');
+   					var submit = document.querySelector('reset');
 
     					submit.addEventListener('click', function() 
       						engagement.recordEvent({message: 'Visitor signed up with e-mail'});
